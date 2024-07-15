@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#todo-list {
+  list-style: none;
+  padding: 0;
+  
+}
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.list-add,.list-edit,.list-delete{
+  background-color: transparent;
+  border: solid white;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.list-input{
+  border: solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.list-edit{
+  background-color: green;
+}
+.list-delete{
+  background-color: red;
+}
